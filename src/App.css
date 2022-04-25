@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #00539f;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
 
 h1 {
   text-align: center;
@@ -45,6 +58,13 @@ img {
   font-size: 12px;
   font-style: italic;
   color: red;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
 @keyframes App-logo-spin {
